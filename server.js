@@ -8,7 +8,7 @@ app.use(express.json());
 
 //Connect to Mongodb
 mongoose
-  .connect("mongodb://127.0.0.1:27017/newapp", {
+  .connect("mongodb+srv://michelle:admin@cluster0.yaes2w7.mongodb.net", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
